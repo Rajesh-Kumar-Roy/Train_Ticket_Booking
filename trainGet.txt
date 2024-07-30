@@ -1,0 +1,1 @@
+https://freeapi.miniprojectideas.com/api/TrainApp/GetTrainsBetweenStations?departureStationId=2&arrivalStationId=20&departureDate=2024-07-05

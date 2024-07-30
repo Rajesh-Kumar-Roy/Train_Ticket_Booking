@@ -1,0 +1,37 @@
+
+<div class="container">
+    <table class="table">
+        
+        <thead>
+            <tr>
+                <th>Train Number</th>
+                <th>Train Name</th>
+                
+                <th>Departure Station</th>
+                <th>Seat Number</th>
+                <th>Arrival Station</th>
+                <th>Time & Date</th>
+                <th>Passenger Name</th>
+                <th>Age</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @for (item of bookingList; track $index) {
+            <tr>
+                <td>{{item.trainNo}}</td>
+                <td>{{item.trainName}}</td>
+                
+                <td>{{item.departureStationName}}</td>
+                <td>{{item.seatNo}}</td>
+                <td>{{item.arrivalStationName}}</td>
+                <td>{{item.departureTime}} - {{item.departureDate}}</td>
+                <td>{{item.passengerName}}</td>
+                <td>{{item.age}}</td>
+                
+            </tr>
+        }
+        </tbody>
+      </table>
+</div>
+
